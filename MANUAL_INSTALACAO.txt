@@ -1,0 +1,153 @@
+================================================================================
+  PTM JSL - SISTEMA DE CONSULTAS 2.0
+  MANUAL DE INSTALAÇÃO E USO
+================================================================================
+
+📋 CONTEÚDO DO PACOTE
+────────────────────────────────────────────────────────────────────────────
+✓ app_melhorado.py          - Código principal da aplicação
+✓ BD.xlsx                   - Base de dados (exemplo)
+✓ Petrobras.png             - Logo Petrobras
+✓ logo jsl.png              - Logo JSL
+✓ requirements.txt          - Lista de dependências
+✓ INSTALADOR.bat            - Instalador automático
+✓ INICIAR_SISTEMA.bat       - Executável do sistema
+✓ README.md                 - Documentação completa
+✓ MANUAL_INSTALACAO.txt     - Este arquivo
+
+================================================================================
+  INSTALAÇÃO - MÉTODO 1 (RECOMENDADO)
+================================================================================
+
+1️⃣  Execute o arquivo: INSTALADOR.bat
+    - Siga as instruções na tela
+    - Aguarde a instalação das dependências (pode demorar alguns minutos)
+
+2️⃣  Após a instalação, execute: INICIAR_SISTEMA.bat
+    - O sistema abrirá automaticamente no navegador
+    - URL: http://localhost:8501
+
+✅ PRONTO! O sistema está funcionando!
+
+================================================================================
+  INSTALAÇÃO - MÉTODO 2 (MANUAL)
+================================================================================
+
+1️⃣  Instale o Python 3.8 ou superior:
+    https://www.python.org/downloads/
+    
+    ⚠️ IMPORTANTE: Marque a opção "Add Python to PATH" durante instalação
+
+2️⃣  Instale o Google Chrome (necessário para rastreamento):
+    https://www.google.com/chrome/
+
+3️⃣  Abra o Terminal/CMD na pasta do sistema
+
+4️⃣  Execute: pip install -r requirements.txt
+
+5️⃣  Execute: streamlit run app_melhorado.py
+
+6️⃣  O navegador abrirá automaticamente
+
+================================================================================
+  ESTRUTURA DE PASTAS RECOMENDADA
+================================================================================
+
+C:\PTM_JSL_Sistema\
+├── app_melhorado.py
+├── BD.xlsx
+├── Petrobras.png
+├── logo jsl.png
+├── requirements.txt
+├── INSTALADOR.bat
+├── INICIAR_SISTEMA.bat
+├── README.md
+└── MANUAL_INSTALACAO.txt
+
+================================================================================
+  SOLUÇÃO DE PROBLEMAS COMUNS
+================================================================================
+
+❌ PROBLEMA: "Python não encontrado"
+✅ SOLUÇÃO: 
+   - Instale o Python: https://www.python.org/downloads/
+   - Certifique-se de marcar "Add Python to PATH"
+   - Reinicie o computador após instalação
+
+❌ PROBLEMA: "Erro ao instalar dependências"
+✅ SOLUÇÃO:
+   - Abra o CMD como Administrador
+   - Execute: python -m pip install --upgrade pip
+   - Execute: pip install -r requirements.txt
+
+❌ PROBLEMA: "Porta 8501 já está em uso"
+✅ SOLUÇÃO:
+   - Feche todas as janelas do sistema
+   - Abra o Gerenciador de Tarefas (CTRL+SHIFT+ESC)
+   - Finalize processos "Python" ou "Streamlit"
+   - Execute INICIAR_SISTEMA.bat novamente
+
+❌ PROBLEMA: "Erro ao rastrear pedidos online"
+✅ SOLUÇÃO:
+   - Verifique se o Google Chrome está instalado
+   - Atualize o Chrome para a versão mais recente
+   - Verifique sua conexão com internet
+
+❌ PROBLEMA: "BD.xlsx não encontrado"
+✅ SOLUÇÃO:
+   - Certifique-se de que BD.xlsx está na mesma pasta
+   - Use a opção "Atualizar Sistema BD" no menu
+   - Faça upload manual do arquivo
+
+================================================================================
+  ATUALIZANDO O SISTEMA
+================================================================================
+
+Para atualizar a base de dados:
+
+OPÇÃO 1 - Via SharePoint (Automático):
+1. Acesse: Atualizar Sistema BD no menu
+2. Clique em "BAIXAR DO SHAREPOINT"
+3. Faça login no SharePoint
+4. Aguarde o download automático
+
+OPÇÃO 2 - Upload Manual:
+1. Acesse o SharePoint e baixe BD.xlsx
+2. No sistema, vá em "Atualizar Sistema BD"
+3. Use a opção "Upload Manual"
+4. Selecione o arquivo baixado
+
+================================================================================
+  BACKUP AUTOMÁTICO
+================================================================================
+
+✓ O sistema cria backup automático antes de cada atualização
+✓ Mantém os 3 backups mais recentes
+✓ Backups são salvos como: BD_backup_AAAAMMDD_HHMMSS.xlsx
+✓ Para restaurar um backup, use o botão "Restaurar" na aba de backups
+
+================================================================================
+  CONTATO E SUPORTE
+================================================================================
+
+👨‍💻 Desenvolvedor: Djalma A Barbosa (FYF9)
+📧 Email: djalma.andre.prestserv@petrobras.com.br
+🏢 Gerência: PCAD/OPARM/ARM-II
+📅 Versão: 2.0 - Janeiro/2026
+
+================================================================================
+  NOTAS IMPORTANTES
+================================================================================
+
+⚠️  Não delete o arquivo BD.xlsx - É a base de dados principal
+⚠️  Mantenha os arquivos .png na mesma pasta (logos)
+⚠️  Para fechar o sistema, use CTRL+C no terminal
+⚠️  Não feche o navegador abruptamente durante processos
+
+✅ O sistema é seguro e todos os dados ficam localmente no seu computador
+✅ Nenhuma informação é enviada para servidores externos
+✅ Apenas o SharePoint da Petrobras é acessado (quando solicitado)
+
+================================================================================
+FIM DO MANUAL
+================================================================================
