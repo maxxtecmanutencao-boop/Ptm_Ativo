@@ -11,7 +11,7 @@ echo Por favor aguarde...
 echo.
 
 REM Inicia o Streamlit
-streamlit run app_melhorado.py --server.port 8501 --server.headless true
+streamlit run app_melhorado_atualizado_2.py --server.port 8501 --server.headless true
 
 if errorlevel 1 (
     echo.
