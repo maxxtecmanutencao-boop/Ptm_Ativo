@@ -32,35 +32,35 @@ custom_css = """
 	@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap');
 
 	.main {
-		background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
-		color: #ffff;
+		background: linear-gradient(135deg, #050506 0%, #09090b 50%, #000000 100%);
+		color: #f7fbff;
 	}
 
 	.stApp {
-		background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+		background: linear-gradient(135deg, #050506 0%, #09090b 50%, #000000 100%);
 	}
 
 	h1, h2, h3 {
 		font-family: 'Orbitron', sans-serif !important;
-		color: #00d9ff !important;
-		text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+		color: #e6f9ff !important;
+		text-shadow: 0 0 6px rgba(0,0,0,0.6);
 		letter-spacing: 2px;
 	}
 
 	.metric-card {
-		background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+		background: linear-gradient(135deg, #0e0e10 0%, #1a1a1a 100%);
 		border-radius: 15px;
 		padding: 20px;
-		box-shadow: 0 8px 32px rgba(0, 217, 255, 0.2);
-		border: 2px solid rgba(0, 217, 255, 0.3);
-		transition: all 0.3s ease;
+		box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+		border: 2px solid rgba(255,255,255,0.05);
+		transition: all 0.2s ease;
 		margin: 10px 0;
 	}
 
 	.metric-card:hover {
 		transform: translateY(-5px);
-		box-shadow: 0 12px 40px rgba(0, 217, 255, 0.4);
-		border-color: #00d9ff;
+		box-shadow: 0 16px 56px rgba(0,0,0,0.8);
+		border-color: rgba(255,255,255,0.08);
 	}
 
 	.metric-value {
@@ -68,18 +68,18 @@ custom_css = """
 		font-weight: 900;
 		font-family: 'Orbitron', sans-serif;
 		color: #00ff88;
-		text-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+		text-shadow: none;
 	}
 
 	.metric-label {
 		font-size: 16px;
-		color: #b0c4de;
+		color: #cfeafb;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 
 	.stButton>button {
-		background: linear-gradient(135deg, #00d9ff 0%, #0099cc 100%);
+		background: linear-gradient(135deg, #00a8ff 0%, #0077aa 100%);
 		color: white;
 		border: none;
 		border-radius: 25px;
@@ -88,13 +88,13 @@ custom_css = """
 		font-family: 'Orbitron', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		box-shadow: 0 4px 15px rgba(0, 217, 255, 0.4);
-		transition: all 0.3s ease;
+		box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+		transition: all 0.2s ease;
 	}
 
 	.stButton>button:hover {
 		background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%);
-		box-shadow: 0 6px 25px rgba(0, 255, 136, 0.6);
+		box-shadow: 0 8px 28px rgba(0,0,0,0.75);
 		transform: translateY(-2px);
 	}
 
@@ -108,8 +108,8 @@ custom_css = """
 		font-family: 'Orbitron', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
-		transition: all 0.3s ease;
+		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+		transition: all 0.2s ease;
 	}
 
 	.stDownloadButton>button:hover {
@@ -121,7 +121,7 @@ custom_css = """
 	.dataframe {
 		border-radius: 10px;
 		overflow: hidden;
-		box-shadow: 0 4px 20px rgba(0, 217, 255, 0.2);
+		box-shadow: 0 6px 28px rgba(0,0,0,0.65);
 	}
 
 	.status-badge {
@@ -140,7 +140,7 @@ custom_css = """
 		padding: 15px;
 		border-radius: 10px;
 		margin: 10px 0;
-		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+		box-shadow: 0 6px 22px rgba(255, 107, 107, 0.25);
 	}
 
 	.success-box {
@@ -149,39 +149,39 @@ custom_css = """
 		padding: 15px;
 		border-radius: 10px;
 		margin: 10px 0;
-		box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+		box-shadow: 0 6px 22px rgba(0, 255, 136, 0.25);
 	}
 
 	.sidebar .sidebar-content {
-		background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+		background: linear-gradient(180deg, #09090b 0%, #000000 100%);
 	}
 
 	.stRadio > label {
 		font-family: 'Orbitron', sans-serif;
-		color: #00d9ff !important;
+		color: #00c0ff !important;
 		font-weight: bold;
 	}
 
 	.stTextInput>div>div>input, .stTextArea>div>div>textarea {
-		background-color: rgba(30, 58, 95, 0.5);
-		border: 2px solid rgba(0, 217, 255, 0.3);
+		background-color: rgba(255,255,255,0.03);
+		border: 1px solid rgba(255,255,255,0.06);
 		border-radius: 10px;
-		color: white;
+		color: #f4f7fb;
 		font-family: 'Roboto', sans-serif;
 	}
 
 	.stTextInput>div>div>input:focus, .stTextArea>div>div>textarea:focus {
-		border-color: #00d9ff;
-		box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+		border-color: #00a8ff;
+		box-shadow: 0 0 12px rgba(0,168,255,0.25);
 	}
 
 	.header-container {
-		background: linear-gradient(135deg, #1e3a5f 0%, #2a5298 100%);
+		background: linear-gradient(135deg, #050506 0%, #0a0a0f 100%);
 		padding: 20px;
 		border-radius: 15px;
-		box-shadow: 0 8px 32px rgba(0, 217, 255, 0.3);
+		box-shadow: 0 12px 40px rgba(0,0,0,0.6);
 		margin-bottom: 30px;
-		border: 2px solid rgba(0, 217, 255, 0.3);
+		border: 2px solid rgba(255,255,255,0.06);
 	}
 
 	.pulse {
@@ -199,21 +199,21 @@ custom_css = """
 	}
 
 	@keyframes glow {
-		from { text-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff; }
-		to { text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff, 0 0 30px #00d9ff; }
+		from { text-shadow: 0 0 5px rgba(0,168,255,0.6); }
+		to { text-shadow: 0 0 10px rgba(0,168,255,0.65); }
 	}
 	
 	.clock-display {
 		font-family: 'Orbitron', sans-serif;
 		font-size: 28px;
 		color: #00ff88;
-		text-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
+		text-shadow: none;
 		font-weight: bold;
 		text-align: center;
 		padding: 10px;
-		background: rgba(0, 217, 255, 0.1);
+		background: rgba(255,255,255,0.02);
 		border-radius: 10px;
-		border: 2px solid rgba(0, 255, 136, 0.3);
+		border: 1px solid rgba(255,255,255,0.04);
 	}
 
 	footer {visibility: hidden;}
@@ -318,6 +318,97 @@ def highlight_alerts(row, alert_statuses, days_threshold=7):
 	except Exception:
 		pass
 	return [''] * len(row)
+
+
+# ------------------ PTMs em atrasos (funções auxiliares) ------------------
+
+def carregar_dados_remessas(arquivo='BD.xlsm'):
+	"""Carrega e processa os dados do Excel para análise de remessas"""
+	try:
+		df = pd.read_excel(arquivo)
+		
+		df = df[df['Pedido'].notna()].copy()
+		
+		colunas_data = ['Data do Pedido', 'Data Prevista Entrega', 'Entrega Real']
+		for col in colunas_data:
+			if col in df.columns:
+				df[col] = pd.to_datetime(df[col], errors='coerce')
+		
+		return df
+	except Exception as e:
+		st.error(f"Erro ao carregar arquivo: {e}")
+		return pd.DataFrame()
+
+
+	except Exception as e:
+		st.error(f"Erro ao carregar arquivo de remessas: {e}")
+		return pd.DataFrame()
+
+
+def calcular_metricas_remessas(df):
+	"""Calcula métricas e status das remessas"""
+	if df.empty:
+		return df
+	
+	df = df.copy()
+	hoje = pd.Timestamp(datetime.now().date())
+	
+	df['Dias desde Pedido'] = (hoje - df['Data do Pedido']).dt.days
+	df['Dias até Entrega'] = (df['Data Prevista Entrega'] - hoje).dt.days
+	df['Prazo Total (dias)'] = (df['Data Prevista Entrega'] - df['Data do Pedido']).dt.days
+	
+	def determinar_status(row):
+		if pd.notna(row['Entrega Real']):
+			if row['Entrega Real'] <= row['Data Prevista Entrega']:
+				return '✅ Entregue no Prazo'
+			else:
+				dias_atraso = (row['Entrega Real'] - row['Data Prevista Entrega']).days
+				return f'⚠️ Entregue com Atraso ({dias_atraso}d)'
+		else:
+			dias_restantes = row['Dias até Entrega']
+			if dias_restantes < 0:
+				return f'🔴 PRAZO VENCIDO ({abs(dias_restantes)}d)'
+			elif dias_restantes <= 7:
+				return f'🟡 ATENÇÃO - Próximo ao Prazo ({dias_restantes}d)'
+			else:
+				return f'🟢 No Prazo ({dias_restantes}d)'
+	
+	df['Status'] = df.apply(determinar_status, axis=1)
+	
+	if 'Fase Atual' in df.columns:
+		df['Tempo Parado (dias)'] = df.apply(
+			lambda row: row['Dias desde Pedido'] if pd.notna(row['Fase Atual']) else 0,
+			axis=1
+		)
+	else:
+		df['Tempo Parado (dias)'] = 0
+	
+	return df
+
+def gerar_estatisticas_remessas(df):
+	"""Gera estatísticas resumidas"""
+	if df is None or df.empty:
+		return {}
+
+	stats = {
+		'total': len(df),
+		'entregues': len(df[df['Status'].str.contains('Entregue', na=False)]),
+		'atrasados': len(df[df['Status'].str.contains('VENCIDO|PRAZO VENCIDO', na=False)]),
+		'atencao': len(df[df['Status'].str.contains('ATENÇÃO', na=False)]),
+		'no_prazo': len(df[df['Status'].str.contains('No Prazo', na=False)]),
+		'tempo_medio_parado': df['Tempo Parado (dias)'].mean() if 'Tempo Parado (dias)' in df.columns else 0
+	}
+	return stats
+
+
+def formatar_data_abreviada(data_col):
+	"""Formata datas para formato abreviado dd/mm/aa"""
+	if pd.isna(data_col):
+		return ""
+	try:
+		return pd.to_datetime(data_col).strftime('%d/%m/%y')
+	except:
+		return ""
 
 
 def create_metric_card(label, value, icon="📊"):
@@ -726,6 +817,10 @@ def main():
 		return df_out[export_cols]
 
 	st.sidebar.markdown('## 🎛️ PAINEL DE CONTROLE')
+	# Garantir key única por sessão para evitar StreamlitDuplicateElementKey em execuções paralelas
+	if 'nav_radio_key' not in st.session_state:
+		import uuid
+		st.session_state['nav_radio_key'] = f"nav_radio_{uuid.uuid4().hex[:8]}"
 	page = st.sidebar.radio('📍 Navegação', [
 		'🏠 Dashboard', 
 		'📊 Resumo por Status', 
@@ -733,8 +828,9 @@ def main():
 		'📈 Analytics', 
 		'🌐 Rastreamento Online',
 		'🔄 Atualizar Sistema BD',
-		'🔄 Sincronizar PTM26 → BDBI'
-	], label_visibility='visible')
+		'🔄 Sincronizar PTM26 → BDBI',
+		'PTMs em atrasos'
+	], label_visibility='visible', key=st.session_state['nav_radio_key'])
 
 	status_list = ['Aguard. DSM', 'Aguard. NFe', 'Aguard. Coleta', 'Aguard. Remessa', 'Finalizado', 'Em Transporte', 'Aguard. MIGO']
 	status_keys = ['aguard. dsm', 'aguard. nfe', 'aguard. coleta', 'aguard. remessa', 'finalizado', 'em transporte', 'aguard. migo']
@@ -855,7 +951,7 @@ def main():
 		if 'remessa_query' not in st.session_state:
 			st.session_state.remessa_query = ''
 
-		modo = st.radio('🎯 Modo de busca', ['✍️ Manual (texto)', '📋 Selecionar da lista'], horizontal=True)
+		modo = st.radio('🎯 Modo de busca', ['✍️ Manual (texto)', '📋 Selecionar da lista'], horizontal=True, key='modo_busca')
 
 		remessa_choices = []
 		if 'Remessa' in df.columns:
@@ -1923,6 +2019,51 @@ def main():
 			2. Possui as abas 'BDBI' e 'PTM26'
 			3. Ambas as abas têm as colunas 'Pedido' e 'Item'
 			""")
+
+	elif page == 'PTMs em atrasos':
+		st.markdown('## 🔍 PTMs em atraso')
+		st.markdown('Lista de PTMs com prazo vencido ou com entrega não registrada')
+		st.markdown('---')
+
+		st.markdown('---')
+
+		df_remessas = carregar_dados_remessas(bd_path)
+
+		if df_remessas.empty:
+			st.warning("⚠️ Nenhum dado válido encontrado")
+		else:
+			df_remessas = calcular_metricas_remessas(df_remessas)
+			# Seleciona atrasados (prazo vencido ou status VENCIDO)
+			df_vencidos = df_remessas[df_remessas['Status'].str.contains('VENCIDO', na=False)]
+
+			# Também considera sem entrega real e data prevista já passada
+			mask_sem_entrega = (df_remessas['Entrega Real'].isna()) & (df_remessas['Dias até Entrega'].notna()) & (df_remessas['Dias até Entrega'] < 0)
+			df_vencidos = pd.concat([df_vencidos, df_remessas[mask_sem_entrega]]).drop_duplicates()
+
+			st.subheader(f"🔴 PTMs em atraso: {len(df_vencidos)}")
+
+			if not df_vencidos.empty:
+				df_show = df_vencidos.copy()
+				# Calcula dias de atraso para ordenação
+				if 'Dias até Entrega' in df_show.columns:
+					df_show['Dias de Atraso'] = df_show['Dias até Entrega'].apply(lambda x: abs(int(x)) if pd.notna(x) else 0)
+				else:
+					df_show['Dias de Atraso'] = 0
+
+				# Formata colunas
+				for col in ['Data do Pedido', 'Data Prevista', 'Entrega Real']:
+					if col in df_show.columns:
+						df_show[col] = df_show[col].apply(formatar_data_abreviada)
+
+				cols_exibir = [c for c in ['Pedido', 'Remessa', 'Dias de Atraso', 'Status', 'Data do Pedido', 'Data Prevista', 'Destino Ativo'] if c in df_show.columns]
+				st.dataframe(df_show[cols_exibir].sort_values('Dias de Atraso', ascending=False).fillna(''), use_container_width=True, height=450)
+
+				csv = df_show.to_csv(index=False, encoding='utf-8-sig')
+				st.download_button(label="📥 Exportar PTMs em atraso (CSV)", data=csv, file_name=f"ptms_em_atraso_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv", mime='text/csv')
+			else:
+				st.success("✅ Nenhuma PTM em atraso no momento")
+
+		st.markdown('---')
 
 	# MODIFICAÇÃO: Rodapé personalizado
 	st.markdown("---")
